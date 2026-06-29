@@ -1,0 +1,30 @@
+{
+  "name": "mygrocerypricer",
+  "version": "1.0.0",
+  "description": "a project to scrape data from grocery stores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WongWeiFong/MyGroceryPricer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/WongWeiFong/MyGroceryPricer/issues"
+  },
+  "homepage": "https://github.com/WongWeiFong/MyGroceryPricer#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "axios": "^1.18.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-cron": "^4.5.0",
+    "puppeteer": "^25.2.1"
+  }
+}
