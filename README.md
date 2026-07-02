@@ -103,6 +103,12 @@ GET /api/stores
 GET /api/health
 ```
 
+### Health page
+```
+GET /health
+```
+Browser-friendly page that pings the API health endpoint and shows the service as running when it is reachable.
+
 ## Using this API in Inventra (or any other app)
 
 ```typescript
@@ -134,3 +140,5 @@ export async function getPromotions() {
 1. Create `scrapers/newstore.js` following the pattern in `jayagrocer.js`
 2. Import and call it in `lib/scheduler.js`
 3. That's it — the API automatically includes the new store's data
+
+node -e "require('./scrapers/jayagrocer').scrapeJayaGrocer()" to scrape for jaya grocer's data

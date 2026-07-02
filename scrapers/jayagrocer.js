@@ -9,8 +9,10 @@ const supabase = require('../lib/supabase')
 // Each Jaya Grocer branch is a separate Shopify store.
 // Add more branch URLs here as needed.
 const BRANCHES = [
-  { name: 'Jaya Grocer (Petaling Jaya)',  url: 'https://jgut.jayagrocer.com' },
-  { name: 'Jaya Grocer (KL East Mall)',  url: 'https://klec.jayagrocer.com' },
+  { name: 'Jaya Grocer',  url: 'https://jgut.jayagrocer.com' },
+  { name: 'Jaya Grocer kl',  url: 'https://klec.jayagrocer.com' },
+  // { name: 'Jaya Grocer (Petaling Jaya)',  url: 'https://jgut.jayagrocer.com' },
+  // { name: 'Jaya Grocer (KL East Mall)',  url: 'https://klec.jayagrocer.com' },
 ]
 
 // Strip HTML tags from product descriptions
